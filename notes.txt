@@ -40,3 +40,32 @@ Rules for Variables
 1) never starts with "numbers", may start with "letters or _"
 2) never allows " " (spaces)
 3) never use python predefined keyword. ,
+
+10-Mar-2026
+List of softwares
+*****************
+1) python 
+        https://www.python.org/downloads/
+    
+    > python --version
+         (or)
+    > python3 --version
+
+2) install visual studio code
+        https://code.visualstudio.com/download
+
+3) enable AutoSave
+    File ---> AutoSave
+
+datatypes
+*********
+1) int -- whole
+2) float --- fractional
+3) bool --- True / False
+4) str --- "", '', """  immutable
+5) list --- [] mutable
+6) tuple --- () immutable
+7) set --- {}
+8) dict -- key & value
+
+
