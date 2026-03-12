@@ -1,3 +1,95 @@
+def test_func1(num1):
+    return num1 * num1
+
+def test_func2(func,value):
+    return func(value)
+
+print( test_func2(test_func1,5) )
+
+
+
+# x = 10
+# def test_func():
+#     global x
+#     x = 100
+
+# test_func()
+# print(x)
+
+
+
+
+# x = 10 # global
+# def test_func():
+#     x = 5 # local
+#     print(x)
+
+# test_func() #5
+# print(x) #10
+
+
+
+
+# def outer(num1):
+#     def inner(num2):
+#         return num1+num2
+    
+#     return inner
+
+# x = outer(200)
+# res = x(100)
+# print(res)
+
+# def outer():
+#     def inner():
+#         print("Hello,AshokIT")
+    
+# outer()
+
+
+
+
+
+# res = lambda num1,num2:num1+num2
+# x = res(200,100)
+# print(x)
+
+# res = lambda num1:num1*num1
+# x = res(4)
+# print(x)
+
+# def factorial(n):
+#     if n==1:
+#         return 1
+#     return n * factorial(n-1)   # 5 * factorial(4)
+#                                 # 5 * 4 * factorial(3)
+#                                 # 5 * 4 * 3 * 2 * 1
+#                                 # 120
+                               
+
+# print(factorial(5))
+
+
+
+
+# def test_func():
+#     return 100,200,300
+
+# res = test_func()
+# num1,num2,num3 = res
+# print(type(num1),num2,num3)
+
+
+
+# def test_func(**param1):
+#     print(param1)
+
+# test_func(name="AshokIT",course="AIML")
+
+
+
+
+
 # Arbitrary Arguments
 # "*"
 # def test_func(*nums):
