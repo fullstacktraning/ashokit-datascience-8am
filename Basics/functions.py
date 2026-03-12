@@ -1,10 +1,14 @@
-def test_func1(num1):
-    return num1 * num1
+# FAQ'S (NEW - DIFF)
+# BASIC --> FAQ'S. (Duration) (1.15min / 1.30min)
 
-def test_func2(func,value):
-    return func(value)
 
-print( test_func2(test_func1,5) )
+# def test_func1(num1):
+#     return num1 * num1
+
+# def test_func2(func,value):
+#     return func(value)
+
+# print( test_func2(test_func1,5) )
 
 
 
