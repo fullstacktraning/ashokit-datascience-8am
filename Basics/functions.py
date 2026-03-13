@@ -1,3 +1,32 @@
+# from functools import reduce
+# print( reduce(lambda x,y:x+y,[1,2,3,4,5]) )
+
+# reduce() --> used to find the sum of list elements
+# filter() --> used to apply the condidions
+# map() ---> manipulate every list element
+# res=0
+# for num in [1,2,3,4,5]:
+#     res=res+num
+# print(res)
+# print(sum([1,2,3,4,5]))
+
+
+
+
+# print(list(filter(lambda x:x>10,[10,20,30,40,50])))
+
+
+# print( list( map(lambda num:num*num,[1,2,3,4,5]) ) )
+
+# numbers = [1,2,3,4,5]
+# def square(num):
+#     return num*num
+# result = map(square,numbers)
+# print(list(result))
+
+
+
+
 # FAQ'S (NEW - DIFF)
 # BASIC --> FAQ'S. (Duration) (1.15min / 1.30min)
 

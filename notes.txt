@@ -68,4 +68,18 @@ datatypes
 7) set --- {}
 8) dict -- key & value
 
+11-Mar-2026
+Functions
+*********
+    particular "business logic" called as "function"
+            (or)
+    "block of code" also called as Functions
+
+    Functions are used to "reuse" the "business logic"
+
+    "def" is the keyword used to declare the Functions
+
+    "pass" is the keyword, used to tell "no business logic in body"
+
+
 
