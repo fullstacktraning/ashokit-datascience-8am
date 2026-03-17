@@ -1,12 +1,135 @@
-class Test:
-    x = 10
+# Duck Typing
+class Test1:
+    def test1(self):
+        print("Hello....Soon we will start ML")
+class Test2:
+    def test1(self):
+        print("Hello....soon qwe will start Gen AI")
+def my_test_func(obj):
+    obj.test1()
 
-t1 = Test()
-t2 = Test()
+obj1 = Test1()
+my_test_func(obj1)
 
-Test.x = 20;
-t1.x = 30
-print(Test.x, t1.x,t2.x)
+obj2 = Test2()
+my_test_func(obj2)
+
+
+
+
+
+# class Number:
+#     def __init__(self,x):
+#         self.x = x
+
+#     def __add__(self, other):
+#         return self.x + other.x
+
+# obj1 = Number(10)
+# obj2 = Number(20)
+# print(obj1 + obj2)  # obj1.__add__(obj2)
+
+
+
+
+# from abc import ABC,abstractmethod
+
+# class Parent(ABC):
+#     @abstractmethod
+#     def test1(self):
+#         pass
+
+# class Child(Parent):
+#     def test1(self):
+#         print("welcome to test1 !!!")
+
+# obj = Child()
+# obj.test1()
+
+
+
+
+
+
+
+# class Calc:
+#     def add(self,num1,num2,num3=0):
+#         print(num1 + num2 + num3)
+
+# obj = Calc()
+# obj.add(200,100)
+# obj.add(300,200,100)
+
+
+
+
+
+# class Parent:
+#     def __init__(self,name):
+#         self.name = name
+
+# class Child(Parent):
+#     def __init__(self, name, age):
+#         super().__init__(name)
+#         self.age = age
+
+# obj = Child("Std1",20)
+# print(obj.name)
+# print(obj.age)
+
+
+
+
+
+# class Parent:
+#     def ora_conn(self):
+#         return "oracle connection soon...!"
+    
+# class Child(Parent):
+#     def mysql_conn(self):
+#         return "mysql connection soon...!"
+
+# class Subchild(Child):
+#     def mongodb_conn(self):
+#         return "mongodb connection soon...!"
+
+# obj = Subchild()
+# res1 = obj.ora_conn()
+# print(res1)
+
+# res2 = obj.mysql_conn();
+# print(res2)
+
+# res3 = obj.mongodb_conn()
+# print(res3)
+
+
+# class Parent:
+#     def test1(self):
+#         print("test1")
+
+# class Child(Parent):
+#     def test2(self):
+#         print("test2")
+
+
+# c = Child()
+# c.test1()
+# c.test2()
+
+
+
+
+
+# class Test:
+#     x = 10
+
+# t1 = Test()
+# t2 = Test()
+
+# Test.x = 20;
+# t1.x = 30
+# print(Test.x, t1.x,t2.x)
 
 
 
