@@ -1,3 +1,13 @@
+# OOPS
+# LIST
+# TUPLES
+# SET
+# DICTIONARY
+# NUMPY
+# PANDAS
+# MATPLOTLIB
+# SEABORN
+
 # FAQ8: isinstance vs type
 # class A:
 #     pass
