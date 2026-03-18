@@ -1,18 +1,126 @@
-# Duck Typing
-class Test1:
-    def test1(self):
-        print("Hello....Soon we will start ML")
-class Test2:
-    def test1(self):
-        print("Hello....soon qwe will start Gen AI")
-def my_test_func(obj):
-    obj.test1()
+# FAQ8: isinstance vs type
+# class A:
+#     pass
+# class B(A):
+#     pass
+# obj = B()
+# print(isinstance(obj,A)) #true
+# print(isinstance(obj,B)) #true
+# print(type(obj) == B) # True
+# print(type(obj) == A) # False
 
-obj1 = Test1()
-my_test_func(obj1)
 
-obj2 = Test2()
-my_test_func(obj2)
+# FAQ7: Modify Class Variable
+# class Test:
+#     x = 10
+
+# t1 = Test()
+# t2 = Test()
+# Test.x = 100
+# print(t1.x)
+# print(t2.x)
+
+
+# FAQ6: MRO (Method Resolution Order)
+# class A:
+#     def show(self):
+#         print("A")
+
+# class B(A):
+#     def show(self):
+#         print("B")
+
+# class C(A):
+#     def show(self):
+#         print("C")
+
+# class D(C,B):
+#     pass
+
+# d = D()
+# d.show()
+
+
+
+
+# FAQ5: constructor with return
+# class Test:
+#     def __init__(self):
+#         return "Hello"
+# obj = Test() #Err
+
+
+# FAQ4: private variables
+# class Test:
+#     def __init__(self):
+#         self.__x = 100
+#     def display(self):
+#         return self.__x
+
+# t1 = Test()
+# #print(t1.__x) # Err
+# print(t1._Test__x)
+# print(t1.display())
+
+
+# FAQ3: Overriding
+# class A:
+#     def show(self):
+#         print("A")
+# class B(A):
+#     def show(self):
+#         print("B")
+# obj = B()
+# obj.show()
+
+# obj1 = A()
+# obj1.show()
+
+
+
+
+
+# FAQ2 : Mutable Argument Trap
+# class Test:
+#     def __init__(self,items=[]):
+#         self.items = items
+
+# t1 = Test()
+# t1.items.append(100)
+
+# t2 = Test()
+# print(t2.items)
+
+
+
+# FAQ1
+# class Test:
+#     x = 10   # class variable
+
+# t1 = Test()
+# t2 = Test()
+# t1.x = 100
+# print(t1.x)
+# print(t2.x)
+
+
+
+
+# # Duck Typing
+# class Test1:
+#     def test1(self):
+#         print("Hello....Soon we will start ML")
+# class Test2:
+#     def test1(self):
+#         print("Hello....soon qwe will start Gen AI")
+# def my_test_func(obj):
+#     obj.test1()
+
+# obj1 = Test1()
+# my_test_func(obj1)
+
+# obj2 = Test2()
+# my_test_func(obj2)
 
 
 
