@@ -2,7 +2,7 @@
 # insert() - add element at particular index
 # extend() - add one list to the another list
 # remove() - used to remove element from list
-# pop() - used to remove last element
+# pop() - used to remove "last element"
 # pop(index) / del - used to delete particular element based on index
 # clear() - used to delete all list elements
 # index() - know the index of a first occured element
@@ -15,6 +15,27 @@
 # max() - used to find the max element in a list
 # min() - used to find the min element in list
 # sum() - used to find the sum of list elements
+
+
+
+# list1 = [[1, 2, 3],
+#          [4, 5, 6],
+#          [7, 8, 9]]
+# print(list1[0][0]) #1
+# print(list1[2][2]) #9
+
+# for row in list1:
+#     for value in row:
+#         print(value,end="\n")
+
+
+
+# list1 = [1,2,[3,4],5]
+# x = list1[2]
+# print(x[0],x[1])
+
+
+
 
 # list1 = [10,20,30,40,50]
 # print(len(list1))
