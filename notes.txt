@@ -81,3 +81,10 @@ Functions
 
     "pass" is the keyword, used to tell "no business logic in body"
 
+List
+****
+    Ordered
+    Mutable (we can modify)
+    Allows Duplicates
+    Hetrogeneous Elements
+    []
