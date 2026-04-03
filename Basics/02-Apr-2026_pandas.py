@@ -1,6 +1,44 @@
 import pandas as pd
 
-df = pd.read_csv("employees_null.csv")
+data = {
+    "name" : ["Emp1","Emp2","Emp3"],
+    "age" : [22,24,26],
+    "salary" : [10000,20000,30000]
+}
+# df = pd.DataFrame(data) # iloc --> row index
+# print( df.iloc[0] )   # row 0
+# print( df.iloc[1] )   # row 1
+# print( df.iloc[2] )   # row 2
+
+# print(df.iloc[2,2])   # row2 & col2
+# print(df.iloc[1,1])   # row1 & col1
+
+# print( df.iloc[0:2] ) # 0row -- includes & 2row excludes
+
+# print(df.iloc[:,0])   #all rows & col0 
+# print(df.iloc[:,2])   #all rows & col2
+
+# print(df.loc[0])
+
+# print( df )
+# print( df.loc[1,"salary"] )
+# print( df.loc[2,"age"] )
+
+# print( df.loc[:,["name","salary"]] )
+# print( df.loc[ df["age"]>23 ] )
+# iloc() --> row index, unable to apply conditions
+# loc() --> col index, apply conditions
+
+# df = pd.DataFrame(data)
+# # print(df.reset_index())
+# # print(df.reset_index(drop=True))
+# df.index = ["A","B","C"]
+# print(df)
+
+
+
+
+# df = pd.read_csv("employees_null.csv")
 
 # Example1
 # print(df)
