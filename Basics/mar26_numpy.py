@@ -10,3 +10,4 @@
 # list1 = np.array([10,20,30,40,50])
 # new_list = list1 * 2
 # print(new_list)
+
