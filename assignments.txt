@@ -1,0 +1,5 @@
+1) Build Deep Learning model with below below pattern
+
+        y = 2 * x
+
+    develop API Call (POST) (FastAPI)

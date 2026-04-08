@@ -92,4 +92,8 @@ List
 Deep Learning (DL)
 ******************
 
+fastapi - develop API'S
+
+uvicorn - light weight http server, used to run API'S
+
         

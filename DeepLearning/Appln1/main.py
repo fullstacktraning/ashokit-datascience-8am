@@ -7,11 +7,24 @@ from tensorflow import keras
 # numpy used to work with lists
 import numpy as np
 
+# import FastAPI
+from fastapi import FastAPI
+
+# import BaseModel
+# BaseModel used to define Schema (define clear datatypes / format)
+from pydantic import BaseModel
+
+
+class Test(BaseModel):
+    num : float
+
+
+
 # input
 X = np.array([[1],[2],[3],[4]])
 
 # output
-y = np.array([[1],[4],[9],[16]]) 
+y = np.array([[1],[4],[9],[16]])    # y = x * x
 
 # create model
 model = keras.Sequential([
@@ -26,10 +39,23 @@ model.compile(
 )
 
 # Train the model
-model.fit(X,y,epochs=1500)
+model.fit(X,y,epochs=500)
 
-# predict
-print(model.predict(np.array([[5]])))
+app = FastAPI()
+
+class InputData(BaseModel):
+    value:float
+
+@app.get("/")
+def home():
+    return {"message" : "welcome to FastAPI !!!"}
+
+@app.post("/predict")
+def predict(obj:Test):
+    res = model.predict(np.array([[obj.num]]))
+    # [[11.3]] "11.3" float("11.3") -- 11.3
+    return {"result" : float(res[0][0])}
+
 
 
 
