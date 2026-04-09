@@ -1,12 +1,21 @@
 import numpy as np
 
+
+list1 = np.array([1,2,3,4,5])
+
+print(list1.reshape(1,-1))
+
+
+
+
+
 #mar-28
-list32 = np.array([[1,2],
-                   [3,4]])
-list33 = np.array([[5,6],
-                   [7,8]])
-#print(np.dot(list32,list33))
-print(list32.T)
+# list32 = np.array([[1,2],
+#                    [3,4]])
+# list33 = np.array([[5,6],
+#                    [7,8]])
+# #print(np.dot(list32,list33))
+# print(list32.T)
 
 
 

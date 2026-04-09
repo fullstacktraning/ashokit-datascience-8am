@@ -3,3 +3,5 @@
         y = 2 * x
 
     develop API Call (POST) (FastAPI)
+
+2) Build Deep Learning model with load_diabetic
