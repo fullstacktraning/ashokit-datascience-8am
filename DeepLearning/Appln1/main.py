@@ -19,7 +19,6 @@ class Test(BaseModel):
     num : float
 
 
-
 # input
 X = np.array([[1],[2],[3],[4]])
 
