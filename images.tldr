@@ -792,12 +792,12 @@
 			"typeName": "camera"
 		},
 		{
-			"editingShapeId": "shape:fdgARhQ36cDquJiO6fpE3",
+			"editingShapeId": "shape:CzVdTiGB-6t8AwqhNk91L",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:fdgARhQ36cDquJiO6fpE3"
+				"shape:CzVdTiGB-6t8AwqhNk91L"
 			],
-			"hoveredShapeId": "shape:fdgARhQ36cDquJiO6fpE3",
+			"hoveredShapeId": "shape:CzVdTiGB-6t8AwqhNk91L",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -2839,6 +2839,180 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 199.19572783841053,
+			"y": 516.5006283322979,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:veSZ8oPmUxGvhXIinQCaK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 351.9049377441406,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "tanh"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "*****"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Amazon Reviews"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "10000000          -90900000"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "0.95                     -0.9"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "+1.    to.      -1"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Sentiment Analysis"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "-1 (Negative Sentiment)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "+1 (Positive Sentiment)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:ig84IpWGvei_S_H4anevI",
+			"index": "a2lRFUFG",
+			"typeName": "shape"
+		},
+		{
 			"x": 581.1328125,
 			"y": 786.0546875,
 			"rotation": 0,
@@ -4048,9 +4222,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -9.72222183589589,
-			"y": -28.472221090837945,
-			"z": 1,
+			"x": -69.39380612650959,
+			"y": -865.1651420718129,
+			"z": 0.3834818467364696,
 			"meta": {},
 			"id": "camera:page:ig84IpWGvei_S_H4anevI",
 			"typeName": "camera"
@@ -4357,6 +4531,60 @@
 			},
 			"parentId": "page:9RLlGMNBz3s-MxC5F0gzi",
 			"index": "a1KOi9KV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1146.3089730548345,
+			"y": 1147.282391669854,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:bUJtQymQPMI55gH0lf0lD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 120.42816162109375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "bonus = 5"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:ig84IpWGvei_S_H4anevI",
+			"index": "a41mfuZV",
 			"typeName": "shape"
 		},
 		{
@@ -8357,6 +8585,150 @@
 			},
 			"parentId": "page:page",
 			"index": "aCmnVu3V",
+			"typeName": "shape"
+		},
+		{
+			"x": 660.5794673137686,
+			"y": 1322.4720869392145,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CzVdTiGB-6t8AwqhNk91L",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 318.9090576171875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(50 x 0.6) + (60 x 0.4) + 5"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "30 + 24 + 5"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "principal = 59"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(Activation Function)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "if marks >= 50:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "     pass"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "else:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t fail"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:ig84IpWGvei_S_H4anevI",
+			"index": "a5O2UtGl",
 			"typeName": "shape"
 		},
 		{
@@ -14550,8 +14922,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 972.9166259765625,
-				"h": 527.0833129882812
+				"w": 952.0833129882812,
+				"h": 477.08331298828125
 			},
 			"insets": [
 				false,
@@ -15864,6 +16236,72 @@
 			},
 			"parentId": "page:EYW8sh72X5xO1GBINhO6Z",
 			"index": "aAAQ9v2V",
+			"typeName": "shape"
+		},
+		{
+			"x": 660.7351262669121,
+			"y": 1119.9764446286774,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:z0x3HI-ExiuYReirELDZm",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 401.613037109375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Maths = 50.           weight = 0.6"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Sanskrit = 60         weight = 0.4"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:ig84IpWGvei_S_H4anevI",
+			"index": "a3oZNY5V",
 			"typeName": "shape"
 		},
 		{
