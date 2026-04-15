@@ -96,4 +96,21 @@ fastapi - develop API'S
 
 uvicorn - light weight http server, used to run API'S
 
+
+
+Camera --->.  Scan Image
+
+               Animals           ---->.  Output
+
+
+               Dog                         Dog
+
+
+               Ele                          Ele
+
+
+Training Time
+
+Train ---> X-Ray's. (20hrs)  --->. 66%
+               
         

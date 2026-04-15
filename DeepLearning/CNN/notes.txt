@@ -1,0 +1,58 @@
+1) what is CNN
+2) why is Convolutional Network
+3) Types of Images
+4) Identify Edges
+    - Image (Input) (6 X 6)
+    - Filter / Kernal (3 X 3)
+    - Feature Image.  (4 X 4)
+5) Padding in CNN
+6) Stride in CNN
+7) Pooling in CNN
+8) Build one Miniproject
+        - FastAPI
+        - Host
+
+CNN (Convolutional Neural Network)
+**********************************
+    because of ANN, below are the problems
+    1) high computational cost
+    2) overfitting
+    3) spatial features loss
+
+    to overcome above problems, we have CNN
+
+
+Types of Images
+***************
+1) Gray Scale Images
+    - 3 colors are possible
+        1) black.   2) white.  3) gray
+    
+    - 0 - 255
+
+    0 - black
+    255 - white
+
+    light gray - dark gray
+
+    2D
+    Ex.
+        [
+            [0,1,30,],
+            [],
+            []
+        ]
+
+    Normalization (Model will Train with highest performance)
+
+2) RGB Images
+    R - [255,0,0]
+    G - [0,255,0]
+    B - [0,0,255]
+
+    Range : 0-255
+
+    Numpy Lists (3Dimensional)
+
+
+
