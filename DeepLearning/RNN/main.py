@@ -101,7 +101,7 @@ model = Sequential()
 model.add(
     Embedding(
         input_dim=50,
-        output_dim=8,                []
+        output_dim=8,                
         input_length=max_length
     )
 )
